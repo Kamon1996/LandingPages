@@ -1,0 +1,30 @@
+
+@media (min-width: 1240px) {
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 173px minmax(200px, 574px) 212px;
+  column-gap: 40px;
+  row-gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    color: #415e56;
+    text-align: center;
+    text-transform: none;
+  }
+
+  .logo {
+    grid-column: 1/2;
+  }
+  
+  .ul-footer {
+    grid-column: 2/3;
+    justify-content: space-between;
+  }
+
+}
