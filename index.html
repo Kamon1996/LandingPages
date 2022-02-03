@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <link rel="stylesheet" href="css/iconsfont.css" />
-    <link rel="stylesheet" href="css/media.css" />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/iconsfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Exam</title>
   </head>
@@ -16,6 +16,20 @@
         <header class="header">
           <div class="header__inner">
             <a class="logo-main" href="#"><i class="logo"></i></a>
+            <div class="burger-menu">
+              <input type="checkbox" class="burger-check" id="burger-check" />
+              <label for="burger-check">
+                <span></span>
+              </label>
+              <nav class="burger-nav">
+                <ul>
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Contagion</a></li>
+                  <li><a href="#">Symptoms</a></li>
+                  <li><a href="#">Prevention</a></li>
+                </ul>
+              </nav>
+            </div>
             <nav class="nav">
               <ul>
                 <li><a href="#">Overview</a></li>
@@ -38,7 +52,7 @@
             <a href="#" class="button">Let Us Help</a>
           </div>
           <div class="promo-img">
-            <img src="../Exam/img/promo-img.png" alt="" class="" />
+            <img src="../Exam/img/promo-img2.png" alt="" class="" />
           </div>
         </div>
       </div>
@@ -75,6 +89,10 @@
           </p>
           <div class="contagion__items">
             <div class="contagion-item">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
               <div class="contagion-img">
                 <img src="../Exam/img/contagion-img-1.png" alt="" />
               </div>
@@ -85,6 +103,10 @@
               </p>
             </div>
             <div class="contagion-item">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
               <div class="contagion-img">
                 <img src="../Exam/img/contagion-img-2.png" alt="" />
               </div>
@@ -94,6 +116,10 @@
               </p>
             </div>
             <div class="contagion-item">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
               <div class="contagion-img">
                 <img src="../Exam/img/contagion-img-3.png" alt="" />
               </div>
@@ -102,6 +128,41 @@
                 Use the tissue while sneezing,In this way, you can protect your
                 droplets
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="symptomps">
+      <div class="wrapper">
+        <div class="symptomps-inner">
+          <h6>Covid-19</h6>
+          <h2>Symptomps</h2>
+          <p>
+            Corona viruses are a type of virus. There are many different kinds,
+            and some cause disease. A newly identified type has caused a recent
+            outbreak of respiratory
+          </p>
+          <div class="symptomps-bg">
+            <img src="../Exam/img/bg-Symptomps.png" alt="" />
+            <div class="symptomps-bg-item fever">
+              <a href="https://en.wikipedia.org/wiki/Fever"></a>
+            </div>
+            <div class="symptomps-bg-item throat-pain">
+              <a href="https://en.wikipedia.org/wiki/Sore_throat"></a>
+            </div>
+            <div class="symptomps-bg-item dyspnea">
+              <a href="https://en.wikipedia.org/wiki/Shortness_of_breath"></a>
+            </div>
+            <div class="symptomps-bg-item headache">
+              <a href="https://en.wikipedia.org/wiki/Headache"></a>
+            </div>
+            <div class="symptomps-bg-item runny-nose">
+              <a href="https://en.wikipedia.org/wiki/Rhinorrhea"></a>
+            </div>
+            <div class="symptomps-bg-item shaking-chills">
+              <a href="https://en.wikipedia.org/wiki/Chills"></a>
             </div>
           </div>
         </div>
@@ -200,10 +261,14 @@
             </div>
             <div class="map-search">
               <form action="" class="form-search">
-                <input type="text" id="input-search" placeholder="Search by Country" 
-                class="textfield icon-search">
+                <input
+                  type="text"
+                  id="input-search"
+                  placeholder="Search by Country"
+                  class="textfield icon-search"
+                />
                 <button type="submit"></button>
-             </form>
+              </form>
             </div>
           </div>
           <div class="map__stats__card">
@@ -229,13 +294,13 @@
               </div>
               <div class="stats-item">
                 <i class="stats-flag china"></i>
-                <h5>China</h6>
+                <h5>China</h5>
                 <div class="amount">81,340</div>
                 <i class="icon-arrow-down"></i>
               </div>
               <div class="stats-item">
                 <i class="stats-flag spain"></i>
-                <h5>Spain</h6>
+                <h5>Spain</h5>
                 <div class="amount">64,059</div>
                 <i class="icon-arrow-up"></i>
               </div>
@@ -260,10 +325,13 @@
     <section class="question">
       <div class="wrapper">
         <div class="question__inner">
-          <h1>Have Question in mind?
-            Let us help you</h1>
+          <h1>Have Question in mind? Let us help you</h1>
           <form action="" class="form-email">
-            <input type="email" placeholder="snmonydemo@gmail.com" class="input-email">
+            <input
+              type="email"
+              placeholder="snmonydemo@gmail.com"
+              class="input-email"
+            />
             <button type="submit" class="button btn-send">Send</button>
           </form>
         </div>
@@ -286,20 +354,22 @@
             <a href="#" class="icon-vimeo-v"></a>
             <a href="#" class="icon-twitter"></a>
           </div>
-          <div class="copyright">2020 @ All rights reserved by pixelspark.co</div>
+          <div class="copyright">
+            2020 @ All rights reserved by pixelspark.co
+          </div>
         </div>
       </div>
     </footer>
 
     <script>
       var element = document.getElementById("input-search");
-   
-      element.onkeydown = function(e) {
-      if (e.keyCode == 27) {
-         e.target.value = "";
-         e.target.blur("");     
-      }
-    }
-      </script>
+
+      element.onkeydown = function (e) {
+        if (e.keyCode == 27) {
+          e.target.value = "";
+          e.target.blur("");
+        }
+      };
+    </script>
   </body>
 </html>
